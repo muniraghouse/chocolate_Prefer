@@ -13,7 +13,7 @@ st.set_page_config(
     layout = "wide"
 )
 # Loading data
-df=pd.read_csv(r"C:\Users\Administrator\Desktop\INTERN\python\ChocolateEaters.csv")
+df=pd.read_csv("Data/ChocolateEaters.csv")
 df.rename(columns = {'Rating ':'Rating'}, inplace=True)
 df.rename(columns = {' Brand ':'Brand'}, inplace=True)
 
