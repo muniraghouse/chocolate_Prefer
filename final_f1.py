@@ -2,9 +2,7 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 import plotly.express as px
-import matplotlib.pyplot as plt
 from PIL import Image
-import datetime
 from streamlit_option_menu import option_menu
 import graphviz as graphviz
 st.set_page_config(
